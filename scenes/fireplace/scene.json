@@ -1,0 +1,27 @@
+{
+  "scene": "assets/fireplace.gltf",
+
+  "camera": {
+    "eye": [12.37, 1.48, -2.11],
+    "rotation": [253, 90],
+    "up": [0, -1.0, 0],
+    "fov": 87.0
+  },
+  "film": {
+    "width": 1024,
+    "height": 1024,
+    "deltatime": 5000,
+    "frames": 20,
+    "spp": 4096,
+    "mode": "events"
+  },
+  "thresholds": {
+    "positive": 0.8,
+    "negative": 0.8
+  },
+
+  "originalThresholds": {
+    "positive": 0.1,
+    "negative": 0.1
+  }
+}

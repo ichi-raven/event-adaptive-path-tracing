@@ -1,0 +1,34 @@
+{
+  "scene": "assets/bounce2.gltf",
+
+  "light": [
+    {
+      "shape": "infinite",
+      "path": "assets/pisa.exr",
+      "path2": "assets/hdri_03_002.exr"
+    }
+  ],
+  "camera": {
+    "eye": [0, 0.4, 7],
+    "center": [0, 0.4, 0],
+    "up": [0, -1.0, 0],
+    "fov": 60.0
+  },
+  "film": {
+    "width": 1024,
+    "height": 1024,
+    "deltatime": 5000,
+    "frames": 20,
+    "spp": 4096,
+    "mode": "events"
+  },
+  "thresholds": {
+    "positive": 0.4,
+    "negative": 0.4
+  },
+
+  "originalThresholds": {
+    "positive": 0.2,
+    "negative": 0.2
+  }
+}

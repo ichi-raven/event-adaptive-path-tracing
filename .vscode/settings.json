@@ -1,0 +1,52 @@
+{
+  "[json][jsonl][jsonc][yaml]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[c][cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false
+  },
+  "[slang]": {
+    "editor.defaultFormatter": "shader-slang.slang-language-extension",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false
+  },
+  // CppCheck
+  "c-cpp-flylint.cppcheck.executable": "cppcheck",
+  "c-cpp-flylint.cppcheck.enable": true,
+  "c-cpp-flylint.cppcheck.force": false,
+  "c-cpp-flylint.cppcheck.standard": ["c++20"],
+  "c-cpp-flylint.cppcheck.includePaths": [
+    "${workspaceFolder}/src/",
+    "${workspaceFolder}/vk2s/include/"
+  ],
+  // Clang
+  "c-cpp-flylint.clang.enable": true,
+  "c-cpp-flylint.clang.language": "c++",
+  "c-cpp-flylint.clang.standard": ["c++20"],
+  "c-cpp-flylint.clang.includePaths": [
+    "${workspaceFolder}/src/",
+    "${workspaceFolder}/vk2s/include/"
+  ],
+  // Slang
+  "slang.format.clangFormatLocation": "/usr/bin/clang-format",
+  "slang.slangdLocation": "/usr/bin/slangd",
+  "slangLanguageServer.trace.server": "messages",
+  // Others (disabled)
+  "c-cpp-flylint.lizard.enable": false,
+  "c-cpp-flylint.flexelint.enable": false,
+  "c-cpp-flylint.flawfinder.enable": false,
+  "c-cpp-flylint.pclintplus.enable": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  }
+}

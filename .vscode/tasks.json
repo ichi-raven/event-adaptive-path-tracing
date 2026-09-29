@@ -1,0 +1,13 @@
+{
+  "tasks": [
+    {
+      "type": "cmake",
+      "label": "CMakeBuild",
+      "command": "build",
+      "targets": ["all"],
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "CMake build task",
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scene": "assets/cornell_box_with_cube.gltf",
+
+  "light": [],
+  "camera": {
+    "eye": [0, 0, 6.5],
+    "center": [0, 0, 0],
+    "up": [0, 1.0, 0],
+    "fov": 45.0
+  },
+  "film": {
+    "width": 1024,
+    "height": 1024,
+    "deltatime": 5000,
+    "frames": 20,
+    "spp": 4096,
+    "mode": "events"
+  },
+  "thresholds": {
+    "positive": 0.6,
+    "negative": 0.6
+  },
+
+  "originalThresholds": {
+    "positive": 0.1,
+    "negative": 0.1
+  }
+}

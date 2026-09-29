@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "name": "EventRenderer",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/EventRenderer",
+      "args": ["-i", "../../resources/transBox_scene/transBox.json", "-o", "transBox", "--baseline"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/build/bin",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "CMakeBuild",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
